@@ -10,6 +10,9 @@ namespace ConsLambda
     {
         static void Main(string[] args)
         {
+            
+
+            Console.ReadKey();
         }
     }
 }
