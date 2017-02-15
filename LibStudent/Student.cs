@@ -37,7 +37,7 @@ namespace LibStudent
         public List<Student> GetFilteredStudents()
         {
             return students
-                    .Where(delegate (Student s) { return s.Age > 12 && s.Age < 20; })
+                    .Where( s => s.Age > 12 && s.Age < 20 )
                     .ToList();
         }
     }
