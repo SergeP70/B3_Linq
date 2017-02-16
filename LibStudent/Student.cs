@@ -22,9 +22,9 @@ namespace LibStudent
         {
             students = new List<Student> {
                             new Student { Id= 1, FirstName = "Freddie", LastName = "Fish", Age = 18 },
-                            new Student { Id= 1, FirstName = "Bill", LastName = "Jones", Age = 21 },
-                            new Student { Id= 1, FirstName = "Kitty", LastName = "Cat", Age = 19 },
-                            new Student { Id= 1, FirstName = "Suzy", LastName = "Wan", Age = 20 }
+                            new Student { Id= 2, FirstName = "Bill", LastName = "Jones", Age = 21 },
+                            new Student { Id= 3, FirstName = "Kitty", LastName = "Cat", Age = 19 },
+                            new Student { Id= 4, FirstName = "Suzy", LastName = "Wan", Age = 20 }
                        };
         }
 
